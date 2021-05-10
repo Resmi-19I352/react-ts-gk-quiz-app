@@ -78,7 +78,7 @@ const App: React.FC = () => {
             Start
           </button>
         ) : null}
-        {!gameOver ? <p className='score'>Score: {score}</p> : null}
+        {!gameOver ? (<p className='score'>Score: {score}</p>) : null}
         {loading ? <p>Loading Questions...</p> : null}
         {!loading && !gameOver && (
           <QuestionCard
@@ -101,4 +101,3 @@ const App: React.FC = () => {
 };
 
 export default App;
-

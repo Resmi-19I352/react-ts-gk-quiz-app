@@ -27,8 +27,9 @@ export const Wrapper = styled.div`
     color: #fff;
   }
   .score {
-    color: #fff;
-    font-size: 2rem;
+    font-family: Fascinate Inline;
+    color: black;
+    font-size: 40px;
     margin: 0;
   }
   h1 {

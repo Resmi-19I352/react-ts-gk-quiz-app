@@ -6,7 +6,7 @@ export const GlobalStyle = createGlobalStyle`
     height: 100%;
   }
   body {
-   
+    
     background-size: cover;
     margin: 0;
     padding: 0 20px;
